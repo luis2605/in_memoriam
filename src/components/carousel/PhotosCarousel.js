@@ -15,8 +15,8 @@ const PhotosCarousel = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          {/* <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
     );
@@ -25,7 +25,7 @@ const PhotosCarousel = () => {
   return (
     <div className={classes["carousel-container"]} id="galerie">
       <h2 className={classes["carousel-titel"]}> Gallerie</h2>
-      <Carousel fade touch interval={2000}>
+      <Carousel fade touch interval={3000}>
         {photos}
       </Carousel>
     </div>

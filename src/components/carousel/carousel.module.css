@@ -24,7 +24,9 @@
 }
 @media (max-width: 768px) {
   .carousel-container {
-    height: 560px;
+    height: 460px !important;
+    justify-content: center;
+    align-items: center;
   }
   .carousel-img {
     width: 550px;
