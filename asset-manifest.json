@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/in_memoriam/static/css/main.4a017286.css",
-    "main.js": "/in_memoriam/static/js/main.44ffe6bf.js",
+    "main.css": "/in_memoriam/static/css/main.cbbf3182.css",
+    "main.js": "/in_memoriam/static/js/main.548c0387.js",
     "static/js/787.f9607890.chunk.js": "/in_memoriam/static/js/787.f9607890.chunk.js",
     "static/media/the-beat-of-nature-122841.mp3": "/in_memoriam/static/media/the-beat-of-nature-122841.4634b2d338d32fc0cd43.mp3",
     "static/media/2007-1.jpg": "/in_memoriam/static/media/2007-1.cd5e21ac2bb59b0d8cb1.jpg",
@@ -55,12 +55,12 @@
     "static/media/stern.jpg": "/in_memoriam/static/media/stern.e235cdfe887ae086a0b8.jpg",
     "static/media/onlyButterflies.jpg": "/in_memoriam/static/media/onlyButterflies.fa67eba87b5ff8593c7d.jpg",
     "index.html": "/in_memoriam/index.html",
-    "main.4a017286.css.map": "/in_memoriam/static/css/main.4a017286.css.map",
-    "main.44ffe6bf.js.map": "/in_memoriam/static/js/main.44ffe6bf.js.map",
+    "main.cbbf3182.css.map": "/in_memoriam/static/css/main.cbbf3182.css.map",
+    "main.548c0387.js.map": "/in_memoriam/static/js/main.548c0387.js.map",
     "787.f9607890.chunk.js.map": "/in_memoriam/static/js/787.f9607890.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a017286.css",
-    "static/js/main.44ffe6bf.js"
+    "static/css/main.cbbf3182.css",
+    "static/js/main.548c0387.js"
   ]
 }
