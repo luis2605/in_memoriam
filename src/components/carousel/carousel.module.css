@@ -25,7 +25,7 @@
 @media (max-width: 768px) {
   .carousel-img {
     width: 550px;
-    height: auto;
+    height: 425px;
     border-radius: 10px !important;
   }
 }
