@@ -27,5 +27,6 @@
   .carousel-img {
     width: 300px !important;
     height: 312px !important;
+    padding: 0;
   }
 }
