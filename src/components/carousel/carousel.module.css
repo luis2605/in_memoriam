@@ -16,21 +16,16 @@
   padding: 0.3em 0.5em;
 }
 .carousel-img {
-  width: 768px;
-  height: 512px;
-  object-fit: contain;
+  margin: 1em auto;
+  padding: 1em 3em;
+  width: 620px;
+  max-height: 620px;
+
   object-position: bottom;
-  border-radius: 10px !important;
 }
 @media (max-width: 768px) {
-  .carousel-container {
-    height: 460px !important;
-    justify-content: center;
-    align-items: center;
-  }
   .carousel-img {
-    width: 550px;
-    height: auto;
-    /* border-radius: 10px !important; */
+    width: 300px !important;
+    height: 312px !important;
   }
 }
