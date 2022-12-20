@@ -23,9 +23,12 @@
   border-radius: 10px !important;
 }
 @media (max-width: 768px) {
+  .carousel-container {
+    height: 560px;
+  }
   .carousel-img {
     width: 550px;
-    height: 425px;
-    border-radius: 10px !important;
+    height: auto;
+    /* border-radius: 10px !important; */
   }
 }
