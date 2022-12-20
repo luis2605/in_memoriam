@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/in_memoriam/static/css/main.a1a9fb7a.css",
+    "main.css": "/in_memoriam/static/css/main.69b376b9.css",
     "main.js": "/in_memoriam/static/js/main.1d49eae7.js",
     "static/js/787.f9607890.chunk.js": "/in_memoriam/static/js/787.f9607890.chunk.js",
     "static/media/the-beat-of-nature-122841.mp3": "/in_memoriam/static/media/the-beat-of-nature-122841.4634b2d338d32fc0cd43.mp3",
@@ -55,12 +55,12 @@
     "static/media/stern.jpg": "/in_memoriam/static/media/stern.e235cdfe887ae086a0b8.jpg",
     "static/media/onlyButterflies.jpg": "/in_memoriam/static/media/onlyButterflies.fa67eba87b5ff8593c7d.jpg",
     "index.html": "/in_memoriam/index.html",
-    "main.a1a9fb7a.css.map": "/in_memoriam/static/css/main.a1a9fb7a.css.map",
+    "main.69b376b9.css.map": "/in_memoriam/static/css/main.69b376b9.css.map",
     "main.1d49eae7.js.map": "/in_memoriam/static/js/main.1d49eae7.js.map",
     "787.f9607890.chunk.js.map": "/in_memoriam/static/js/787.f9607890.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1a9fb7a.css",
+    "static/css/main.69b376b9.css",
     "static/js/main.1d49eae7.js"
   ]
 }
