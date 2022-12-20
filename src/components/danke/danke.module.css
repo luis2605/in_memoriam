@@ -1,0 +1,61 @@
+.danke-container {
+  position: relative;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 3em auto;
+}
+.danke-titel {
+  width: 450px;
+  font-family: "Questrial";
+  color: aliceblue;
+  padding: 0.3em 1em;
+  background-color: #313131;
+  clip-path: polygon(0.7% 1%, 98.3% 0%, 99.1% 98.8%, 1.1% 100%);
+  margin-bottom: 2em;
+}
+
+.danke-container-1 {
+  display: flex;
+  flex-direction: row-reverse;
+
+  gap: 1em;
+  align-content: center;
+  align-items: center;
+}
+.danke-img {
+  width: 400px;
+  border-radius: 25px;
+  margin: 1em auto;
+}
+.danke-content {
+  display: flex;
+  margin: 1em 2em;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+}
+.danke-subtitle {
+  font-family: "Padauk";
+}
+
+/*medias*/
+
+@media screen and (max-width: 768px) {
+  .danke-container-1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .danke-titel {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .danke-img {
+    width: 300px;
+    border-radius: 25px;
+    margin: 1em auto;
+  }
+}

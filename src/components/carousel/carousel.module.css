@@ -1,0 +1,31 @@
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  top: 10em;
+  max-width: 1024px;
+  margin: 2em auto;
+  background-color: #313131;
+  padding: 1em 1.5em;
+  clip-path: polygon(0.7% 1%, 98.3% 0%, 99.1% 98.8%, 1.1% 100%);
+}
+.carousel-titel {
+  font-family: "Questrial";
+  color: aliceblue;
+  padding: 0.3em 0.5em;
+}
+.carousel-img {
+  width: 768px;
+  height: 512px;
+  object-fit: contain;
+  object-position: bottom;
+  border-radius: 10px !important;
+}
+@media (max-width: 768px) {
+  .carousel-img {
+    width: 550px;
+    height: auto;
+    border-radius: 10px !important;
+  }
+}
