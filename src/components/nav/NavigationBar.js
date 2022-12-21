@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Container from "react-bootstrap/Container";
 
@@ -24,7 +24,7 @@ const NavigationBar = ({ onToggleAudio, onIsAudioOn }) => {
     <>
       {["xl"].map((expand) => (
         <Navbar
-          collapseOnSelect={"true"}
+          collapseOnSelect
           key={expand}
           bg="light"
           expand={expand}
@@ -39,6 +39,7 @@ const NavigationBar = ({ onToggleAudio, onIsAudioOn }) => {
               </div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
@@ -51,14 +52,14 @@ const NavigationBar = ({ onToggleAudio, onIsAudioOn }) => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end align-items-center flex-grow-1 pe-3 ">
+                  {" "}
                   <Nav.Link
                     onClick={() => {
                       let element = document.getElementById("intro");
                       element.scrollIntoView({ behavior: "smooth" });
                     }}
                   >
-                    {" "}
-                    <p className={classes.text}>Ein Paar Worte</p>
+                    <p className={classes.text}> Ein Paar Worte </p>
                   </Nav.Link>
                   <Nav.Link
                     onClick={() => {
@@ -72,6 +73,7 @@ const NavigationBar = ({ onToggleAudio, onIsAudioOn }) => {
                     onClick={() => {
                       let element = document.getElementById("danke");
                       element.scrollIntoView({ behavior: "smooth" });
+                      expand("");
                     }}
                   >
                     <p className={classes["text"]}>Dankeschön</p>
@@ -87,6 +89,7 @@ const NavigationBar = ({ onToggleAudio, onIsAudioOn }) => {
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
+
             <div className={classes.icon}> {displayAudioIcon}</div>
           </Container>
         </Navbar>

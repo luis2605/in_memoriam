@@ -14,8 +14,8 @@ const Spenden = () => {
           <img src={butterfly} className={classes["spenden-img"]} alt="" />
           <div className={classes["spenden-content"]}>
             <h4 className={classes["spenden-subtitle"]}>
-              ...haben wir auf seinen Wunsch hin an den Förderverein der
-              Palliativstation Waldbröl und ... getätigt.
+              ...werden wir auf seinen Wunsch hin an den Förderverein der
+              Palliativstation Waldbröl und an ein Kinderhospiz tätigen.
             </h4>
           </div>
         </div>
